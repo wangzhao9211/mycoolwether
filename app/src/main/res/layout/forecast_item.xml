@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="horizontal"
     android:layout_margin="5dp"
+    android:paddingLeft="10dp"
     >
     <TextView
         android:id="@+id/tv_date"
@@ -28,8 +29,10 @@
         android:layout_weight="1"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
+        android:paddingLeft="10dp"
         />
     <TextView
+        android:paddingLeft="15dp"
         android:id="@+id/tv_min"
         android:textColor="#fff"
         android:layout_width="0dp"
