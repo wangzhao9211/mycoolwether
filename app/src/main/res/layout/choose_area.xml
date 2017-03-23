@@ -7,7 +7,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="?attr/colorPrimary"
+        android:background="#bbFFE4B5"
 
         >
         <TextView
@@ -24,12 +24,12 @@
             android:layout_marginLeft="10dp"
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
-            android:background="@mipmap/ic_launcher"
+            android:background="@mipmap/delete_expression"
             />
         </RelativeLayout>
     <ListView
         android:id="@+id/list_view"
-        android:background="?attr/colorPrimary"
+         android:background="#bbFFE4B5"
         android:layout_width="match_parent"
         android:layout_height="match_parent"></ListView>
 
